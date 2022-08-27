@@ -1,0 +1,1 @@
+squared_f8_settings.txt
