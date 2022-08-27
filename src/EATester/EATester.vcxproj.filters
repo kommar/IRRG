@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Evaluation">
+      <UniqueIdentifier>{c852e900-821c-43e8-bd86-e0e9fe970428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generation">
+      <UniqueIdentifier>{e6daf355-f000-476d-97e1-607443983892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Individual">
+      <UniqueIdentifier>{c7f479a9-c44b-44ed-8129-19ca37458cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Individual\Coding">
+      <UniqueIdentifier>{c4424aed-9aa2-457e-bda6-b7c63a237b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StopCondition">
+      <UniqueIdentifier>{86128f21-f78e-4fec-a96f-233219b35b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Transformation">
+      <UniqueIdentifier>{a220043f-7638-4528-97df-75f6ce301ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generation">
+      <UniqueIdentifier>{0cc28766-b278-4a2b-9005-1627fbc6a143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Individual">
+      <UniqueIdentifier>{56f1b8ea-3fa3-417d-8341-62310ecdaf59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Individual\Coding">
+      <UniqueIdentifier>{e663a48f-de29-4377-b61a-ffefc7834963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problem">
+      <UniqueIdentifier>{2d7894bd-5ef6-4cce-b4ea-73bcd303b51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Transformation">
+      <UniqueIdentifier>{a8aaabae-fa82-49ae-9fa4-1dbc186f7432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StopCondition">
+      <UniqueIdentifier>{0511cef7-db30-4e2b-87a5-87149c888db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Evaluation">
+      <UniqueIdentifier>{e72bc3e8-895a-4623-9bcd-5e9e73b93574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{f864f8d2-9202-4993-8140-d8090eb40404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{1d892771-28c2-4801-b23d-01189e874283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{6026120c-ba06-444b-aa1e-31665f859f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{4bfeeaf0-bc65-4946-9310-1d2aded90ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Linkage">
+      <UniqueIdentifier>{891a91b2-2a13-4a40-90ac-ec64af8bfd6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Linkage">
+      <UniqueIdentifier>{aad1fe78-a712-4629-b944-e15fded087cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Linkage\GenePattern">
+      <UniqueIdentifier>{64ebb5fd-c8d2-4490-9b75-8d54a1292fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Linkage\GenePattern">
+      <UniqueIdentifier>{288850a7-bae6-432e-9865-b0e3fbc1ce2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Command">
+      <UniqueIdentifier>{531507d1-3472-4576-8d06-e030def0a518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Command\Param">
+      <UniqueIdentifier>{f23b58b2-81b4-4bdd-ab04-7712ac5cd0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Command">
+      <UniqueIdentifier>{6a030b6a-249d-4594-af39-2d82ac2ce547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Command\Param">
+      <UniqueIdentifier>{5419133a-618f-4054-af12-85616ea29020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{4a8940b2-eea5-4c33-947c-a69a5c79ccfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{536a02e3-0fc5-4ab3-a6ab-5b44c07b902d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Optimizer">
+      <UniqueIdentifier>{180608b9-1153-4fdc-b07c-098c7c4391ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Optimizer">
+      <UniqueIdentifier>{8fd3ae45-a421-445a-adc4-ae08c70929cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Linkage\Decomposition">
+      <UniqueIdentifier>{b474776e-a535-4bdb-8835-344d1752f7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Linkage\Decomposition">
+      <UniqueIdentifier>{90879824-623a-45af-8762-98cfab2d64d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Problem">
+      <UniqueIdentifier>{939461f9-c0be-4d10-81fe-0db215efce40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Evaluation.cpp">
+      <Filter>Source Files\Evaluation</Filter>
+    </ClCompile>
+    <ClCompile Include="Generation.cpp">
+      <Filter>Source Files\Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="Individual.cpp">
+      <Filter>Source Files\Individual</Filter>
+    </ClCompile>
+    <ClCompile Include="RealCoding.cpp">
+      <Filter>Source Files\Individual\Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="RandUtils.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem.cpp">
+      <Filter>Source Files\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="RealGeneration.cpp">
+      <Filter>Source Files\Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="StopCondition.cpp">
+      <Filter>Source Files\StopCondition</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformation.cpp">
+      <Filter>Source Files\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="RealRandomGeneration.cpp">
+      <Filter>Source Files\Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="RunningTimeStopCondition.cpp">
+      <Filter>Source Files\StopCondition</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerationUtils.cpp">
+      <Filter>Source Files\Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="StopConditionUtils.cpp">
+      <Filter>Source Files\StopCondition</Filter>
+    </ClCompile>
+    <ClCompile Include="GenePattern.cpp">
+      <Filter>Source Files\Linkage\GenePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="IOUtils.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandParamParser.cpp">
+      <Filter>Source Files\System\Command\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandParam.cpp">
+      <Filter>Source Files\System\Command\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatCommandParam.cpp">
+      <Filter>Source Files\System\Command\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandExecution.cpp">
+      <Filter>Source Files\System\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="StringCommandParam.cpp">
+      <Filter>Source Files\System\Command\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="UIntCommandParam.cpp">
+      <Filter>Source Files\System\Command\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumCommandParam.cpp">
+      <Filter>Source Files\System\Command\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="util\timer.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="util\tools.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizer.cpp">
+      <Filter>Source Files\Optimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="RealEvaluation.cpp">
+      <Filter>Source Files\Evaluation</Filter>
+    </ClCompile>
+    <ClCompile Include="UIntVectorCommandParam.cpp">
+      <Filter>Source Files\System\Command\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtils.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimizerUtils.cpp">
+      <Filter>Source Files\Optimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimizationCommand.cpp">
+      <Filter>Source Files\System\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexCommandParam.cpp">
+      <Filter>Source Files\System\Command\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="EvaluationUtils.cpp">
+      <Filter>Source Files\Evaluation</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatVectorCommandParam.cpp">
+      <Filter>Source Files\System\Command\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="Decomposition.cpp">
+      <Filter>Source Files\Linkage\Decomposition</Filter>
+    </ClCompile>
+    <ClCompile Include="SHADE.cpp">
+      <Filter>Source Files\Optimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MTSLS1.cpp">
+      <Filter>Source Files\Optimizer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Evaluation.h">
+      <Filter>Header Files\Evaluation</Filter>
+    </ClInclude>
+    <ClInclude Include="Generation.h">
+      <Filter>Header Files\Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="RealRandomGeneration.h">
+      <Filter>Header Files\Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="RealGeneration.h">
+      <Filter>Header Files\Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Individual.h">
+      <Filter>Header Files\Individual</Filter>
+    </ClInclude>
+    <ClInclude Include="RealCoding.h">
+      <Filter>Header Files\Individual\Coding</Filter>
+    </ClInclude>
+    <ClInclude Include="RandUtils.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StopCondition.h">
+      <Filter>Header Files\StopCondition</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.h">
+      <Filter>Header Files\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem.h">
+      <Filter>Header Files\Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="RunningTimeStopCondition.h">
+      <Filter>Header Files\StopCondition</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerationUtils.h">
+      <Filter>Header Files\Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="StopConditionUtils.h">
+      <Filter>Header Files\StopCondition</Filter>
+    </ClInclude>
+    <ClInclude Include="GenePattern.h">
+      <Filter>Header Files\Linkage\GenePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerUtils.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IOUtils.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandParamParser.h">
+      <Filter>Header Files\System\Command\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandParam.h">
+      <Filter>Header Files\System\Command\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatCommandParam.h">
+      <Filter>Header Files\System\Command\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandExecution.h">
+      <Filter>Header Files\System\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="StringCommandParam.h">
+      <Filter>Header Files\System\Command\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="UIntCommandParam.h">
+      <Filter>Header Files\System\Command\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumCommandParam.h">
+      <Filter>Header Files\System\Command\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tools.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="util\timer.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="UIntVectorCommandParam.h">
+      <Filter>Header Files\System\Command\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="RealEvaluation.h">
+      <Filter>Header Files\Evaluation</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="OptimizerUtils.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="OptimizationCommand.h">
+      <Filter>Header Files\System\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexCommandParam.h">
+      <Filter>Header Files\System\Command\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="EvaluationUtils.h">
+      <Filter>Header Files\Evaluation</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatVectorCommandParam.h">
+      <Filter>Header Files\System\Command\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorUtils.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Decomposition.h">
+      <Filter>Header Files\Linkage\Decomposition</Filter>
+    </ClInclude>
+    <ClInclude Include="SHADE.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="PairUtils.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MTSLS1.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
